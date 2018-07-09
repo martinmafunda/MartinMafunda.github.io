@@ -1,0 +1,104 @@
+
+#r{
+text-align:center;
+padding:30px;
+}
+#r .boy1{
+  border:5px solid black;
+  padding:20px;
+}
+#r .boy2{
+  border:5px solid black;
+  padding:20px;
+}
+#r .boy3{
+  border:5px solid black;
+  padding:20px;
+}
+#r .employee{
+  font-size:128px;
+  color:#777;
+  font-family:cooper;
+  margin-bottom:100px;
+}
+
+.row #kid1{
+text-align: center;
+}
+.row #para1{
+  text-align:center;
+}
+.row #kid2{
+text-align: center;
+}
+.row #para2{
+  text-align:center;
+}
+
+.row #kid3{
+text-align: center;
+}
+.row #para3{
+  text-align:center;
+}
+.parallax1{
+  background:url('../images/mountain1.jpg') no-repeat center center fixed;
+  height:582px;
+  text-align: center;
+  width:1280px;
+}
+.parallax2{
+background:url('../images/mountain2.jpeg') no-repeat center center fixed;;
+  text-align:center;
+  height:852px;
+width:1280px;
+}
+footer{
+  text-align: center;
+  height: 100px;
+  background-color:black;
+  opacity:0.7;
+  font-size: 24px;
+  color:white;
+}
+
+@media (max-width:1200px)
+{
+#r .boy1{
+  margin-left: 15px;
+}
+  #r .boy2{
+    margin-top:80px;
+    margin-left: 15px;
+  }
+  #r .boy3{
+    margin-top:80px;
+
+      margin-left: 15px;
+    }
+    .row #kid1{
+      text-align: center;
+    }
+    .row #kid2{
+      text-align: center;
+    }
+    .row #kid3{
+      text-align: center;
+    }
+    .row #para1{
+      text-align: center;
+    }
+    .row #para2{
+      text-align: center;
+    }
+    .row #para3{
+      text-align: center;
+    }
+    .parallax1{
+      text-align:left;
+    }
+
+    .parallax2{
+      text-align: left;
+    }
+}
